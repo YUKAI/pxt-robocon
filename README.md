@@ -61,12 +61,6 @@ DigitalPin.DDD はあたいをとりたいデジタルピンです。
 DigitalPin.DDD could be the pin you want to get value from.  
 DigitalPin.DDD はあたいをみたいピンのばんごうをせっていします。
 
-## TODO
-
-- [ ] Turn on your automated build on https://travis-ci.org
-- [ ] Use "pxt bump" to create a tagged release on GitHub
-- [ ] Get your package reviewed and approved https://makecode.microbit.org/extensions/approval
-
 # License
 
 MIT
