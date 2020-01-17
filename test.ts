@@ -32,6 +32,6 @@ dis4.set(7)
 basic.forever(function () {
     dis1.show(pins.digitalReadPin(DigitalPin.P16))
     dis2.show(pins.digitalReadPin(DigitalPin.P13))
-    dis3.show(Math.round(robocon.measureInCentimeters(DigitalPin.P15)))
-    dis4.show(Math.round(robocon.measureInCentimeters(DigitalPin.P14)))
+    dis3.show(Math.round(robocon.measure(DigitalPin.P15)))
+    dis4.show(Math.round(robocon.measure(DigitalPin.P14)))
 })
