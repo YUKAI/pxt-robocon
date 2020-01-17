@@ -347,7 +347,7 @@ namespace robocon {
          * @param dispData value of number
          */
         //% blockId=robocon_display
-        //% block="4けたディスプレイ|%var|の|%dispData|にひょうじする"
+        //% block="4けたディスプレイ|%var|に|%dispData|をひょうじする"
         show(dispData: number) {
             let compare_01: number = dispData % 100;
             let compare_001: number = dispData % 1000;
@@ -481,7 +481,7 @@ namespace robocon {
      * @param pin signal pin of ultrasonic ranger module
      */
     //% blockId=robocon_ultrasonic
-    //% block="ちょうおんぱセンサ |%pin|をこうしんする"
+    //% block="ちょうおんぱセンサ |%pin|をよみとる"
     export function measure(pin: DigitalPin): number {
         let duration = 0;
         let RangeInCentimeters = 0;
@@ -509,7 +509,7 @@ namespace robocon {
      * @param dataPin value of data pin number
      */
     //% blockId=robocon_create
-    //% block="4けたディスプレイ たんし|%clkPin|とたんし|%dataPin"
+    //% block="4けたディスプレイに たんし|%clkPin|とたんし|%dataPin|をつなぐ"
     export function createDisplay(clkPin: DigitalPin, dataPin: DigitalPin): TM1637 {
         let display = new TM1637();
 
