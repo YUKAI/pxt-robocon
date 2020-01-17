@@ -544,9 +544,9 @@ namespace robocon {
     }
 
     const address_pca9685 = 64;
-    const initAngle = 95;
-    const lowAngle = 35;
-    const HighAngle = 155;
+    const initAngle = 94;
+    const lowAngle = 44;
+    const HighAngle = 134;
 
     /**
      * @param motor モータの番号
