@@ -482,7 +482,7 @@ namespace robocon {
      */
     //% blockId=robocon_ultrasonic
     //% block="ちょうおんぱセンサ |%pin|をこうしんする"
-    export function measureInCentimeters(pin: DigitalPin): number {
+    export function measure(pin: DigitalPin): number {
         let duration = 0;
         let RangeInCentimeters = 0;
 
