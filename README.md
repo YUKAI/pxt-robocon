@@ -1,4 +1,4 @@
-# pxt-robocon2020
+# pxt-robocon
 
 
 

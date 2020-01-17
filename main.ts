@@ -346,7 +346,7 @@ namespace main {
          * Show a 4 digits number on display
          * @param dispData value of number
          */
-        //% blockId=robocon2020_display
+        //% blockId=robocon_display
         //% block="4けたディスプレイ|%var|の|%dispData|にひょうじする"
         show(dispData: number) {
             let compare_01: number = dispData % 100;
@@ -413,7 +413,7 @@ namespace main {
          * Set the brightness level of display at from 0 to 7
          * @param level value of brightness light level
          */
-        //% blockId=robocon2020_set
+        //% blockId=robocon_set
         //% block="4けたディスプレイ|%var|のあかるさを|%level|にかえる"
         //% level.min=0 level.max=7
         set(level: number) {
@@ -480,7 +480,7 @@ namespace main {
      * Create a new driver of Grove - Ultrasonic Sensor to measure distances in cm
      * @param pin signal pin of ultrasonic ranger module
      */
-    //% blockId=robocon2020_ultrasonic
+    //% blockId=robocon_ultrasonic
     //% block="ちょうおんぱセンサ |%pin|をこうしんする"
     export function measureInCentimeters(pin: DigitalPin): number {
         let duration = 0;
@@ -508,7 +508,7 @@ namespace main {
      * @param clkPin value of clk pin number
      * @param dataPin value of data pin number
      */
-    //% blockId=robocon2020_create
+    //% blockId=robocon_create
     //% block="4けたディスプレイ たんし|%clkPin|とたんし|%dataPin"
     export function createDisplay(clkPin: DigitalPin, dataPin: DigitalPin): TM1637 {
         let display = new TM1637();
@@ -524,7 +524,7 @@ namespace main {
     }
     ////// pxt-grove }
 
-    ////// { pxt-robocon2020
+    ////// { pxt-robocon
     export enum Motors {
         //% block="1"
         One = 1,
@@ -553,7 +553,7 @@ namespace main {
      * @param direction 回す方向
      * @param power パワー
      */
-    //% blockId=robocon2020_move
+    //% blockId=robocon_move
     //% block="モータ%motor|を%direction|に%power|でうごかす"
     //% power.min=0 power.max=100 power.defl=100
     export function move(motor: Motors, direction: Direction, power: number): void {
@@ -596,7 +596,7 @@ namespace main {
     /**
      * @param motor モータの番号
      */
-    //% blockId=robocon2020_stop
+    //% blockId=robocon_stop
     //% block="モータ%motor|をとめる"
     export function stop(motor: Motors): void {
         let servo: ServoNum;
@@ -621,5 +621,5 @@ namespace main {
 
         setServoPosition(servo, initAngle, address_pca9685)
     }
-    ////// pxt-robocon2020 }
+    ////// pxt-robocon }
 }
