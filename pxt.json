@@ -1,6 +1,6 @@
 {
     "name": "pxt-robocon",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "This is command sets for the robot of ROBOCON 2020",
     "dependencies": {
         "core": "*",
