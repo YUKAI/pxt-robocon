@@ -45,7 +45,7 @@ let TubeTab: number[] = [
  * repo: https://github.com/Seeed-Studio/pxt-grove
  * MIT Licence: https://opensource.org/licenses/mit-license.php
  */
-//% weight=0 color=#668ae0 icon="\uf013" block="ROBOCON 2020"
+//% weight=0 color=#668ae0 icon="\uf013" block="ROBOCON"
 namespace robocon {
 ////////// { pxt-9685
     const PrescaleReg = 0xFE //the prescale register address
